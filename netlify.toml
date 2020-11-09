@@ -4,6 +4,7 @@
   publish = ""
   # the root website directory
   command = "echo 'I be building' "
+  building site = "netfy"
   # the build command
   functions = "func/"
   
