@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function getRon(ev) {
-    ev.preventDefault();
+    
     console.log('get ron quote');
     fetch(URL)
         .then((resp) => resp.json())
